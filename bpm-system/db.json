@@ -1,0 +1,28 @@
+{
+  "users": [
+    { "id": 1, "name": "Администратор Системы", "email": "admin@bank.tj", "password": "admin123", "role": "Admin" },
+    { "id": 2, "name": "Менеджер Отдела", "email": "manager@bank.tj", "password": "manager123", "role": "Manager" },
+    { "id": 3, "name": "Сотрудник Банка", "email": "employee@bank.tj", "password": "employee123", "role": "Employee" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Проверить кредитную заявку №4521", "description": "Анализ платёжеспособности клиента", "status": "In Progress", "priority": "High", "assignee": "Иван Каримов", "createdAt": "2026-05-28T09:00:00.000Z" },
+    { "id": 2, "title": "Обновить документацию по KYC", "description": "Актуализировать процедуры идентификации", "status": "New", "priority": "Medium", "assignee": "Нигина Шарипова", "createdAt": "2026-05-29T10:30:00.000Z" },
+    { "id": 3, "title": "Согласовать лимиты по картам", "description": "Пересмотр лимитов корпоративных карт", "status": "Review", "priority": "High", "assignee": "Далер Назаров", "createdAt": "2026-05-30T11:15:00.000Z" },
+    { "id": 4, "title": "Закрыть месячную отчётность", "description": "Подготовка финансовых отчётов за май", "status": "Completed", "priority": "Medium", "assignee": "Манижа Рахимова", "createdAt": "2026-05-25T08:00:00.000Z" },
+    { "id": 5, "title": "Настроить интеграцию с платёжным шлюзом", "description": "Подключение нового провайдера платежей", "status": "In Progress", "priority": "High", "assignee": "Фарход Юсупов", "createdAt": "2026-06-01T14:20:00.000Z" }
+  ],
+  "employees": [
+    { "id": 1, "name": "Иван Каримов", "position": "Кредитный специалист", "department": "Кредитный отдел", "email": "i.karimov@bank.tj", "phone": "+992 90 111 22 33", "role": "Employee" },
+    { "id": 2, "name": "Нигина Шарипова", "position": "Комплаенс-менеджер", "department": "Комплаенс", "email": "n.sharipova@bank.tj", "phone": "+992 90 222 33 44", "role": "Manager" },
+    { "id": 3, "name": "Далер Назаров", "position": "Руководитель отдела", "department": "Корпоративный бизнес", "email": "d.nazarov@bank.tj", "phone": "+992 90 333 44 55", "role": "Manager" },
+    { "id": 4, "name": "Манижа Рахимова", "position": "Бухгалтер", "department": "Финансы", "email": "m.rahimova@bank.tj", "phone": "+992 90 444 55 66", "role": "Employee" },
+    { "id": 5, "name": "Фарход Юсупов", "position": "IT-инженер", "department": "Информационные технологии", "email": "f.yusupov@bank.tj", "phone": "+992 90 555 66 77", "role": "Employee" },
+    { "id": 6, "name": "Сабрина Холова", "position": "HR-специалист", "department": "Управление персоналом", "email": "s.holova@bank.tj", "phone": "+992 90 666 77 88", "role": "Employee" },
+    { "id": 7, "name": "Рустам Шоев", "position": "Аналитик данных", "department": "Информационные технологии", "email": "r.shoev@bank.tj", "phone": "+992 90 777 88 99", "role": "Employee" },
+    { "id": 8, "name": "Зарина Одинаева", "position": "Операционист", "department": "Операционный отдел", "email": "z.odinaeva@bank.tj", "phone": "+992 90 888 99 00", "role": "Employee" }
+  ],
+  "requests": [
+    { "id": 1, "title": "Отпуск на 14 дней", "type": "Отпуск", "author": "Иван Каримов", "description": "Ежегодный оплачиваемый отпуск с 15 июня", "status": "Submitted", "createdAt": "2026-06-01T09:00:00.000Z", "history": [ { "status": "Submitted", "at": "2026-06-01T09:00:00.000Z", "note": "Заявка создана" } ] },
+    { "id": 2, "title": "Доступ к CRM-системе", "type": "Доступ к системе", "author": "Манижа Рахимова", "description": "Требуется доступ для работы с клиентской базой", "status": "Approved", "createdAt": "2026-05-30T12:00:00.000Z", "history": [ { "status": "Submitted", "at": "2026-05-30T12:00:00.000Z", "note": "Заявка создана" }, { "status": "Approved", "at": "2026-05-31T10:00:00.000Z", "note": "Одобрено: Менеджер Отдела" } ] }
+  ]
+}
